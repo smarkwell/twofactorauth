@@ -1,7 +1,7 @@
 websites:
     - name: App.net
       url: https://join.app.net
-      img: app.net.png
+      img: appnet.png
       tfa: Yes
       goog: Yes
       authy: Yes
@@ -58,6 +58,7 @@ websites:
       twitter: reddit
       img: reddit.png
       tfa: No
+      status: https://twitter.com/hueypriest/status/446601146409689088
 
     - name: Twitter
       url: https://twitter.com
@@ -84,4 +85,7 @@ websites:
       url: https://www.tumblr.com/
       twitter: tumblr
       img: tumblr.png
-      tfa: No
+      tfa: Yes
+      goog: Yes
+      sms: Yes
+      doc: https://www.tumblr.com/docs/en/two_factor_auth

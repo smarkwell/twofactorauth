@@ -14,6 +14,8 @@ websites:
             url: http://www.windowsphone.com/en-us/store/app/battle-net-authenticator/1347bbfb-bca2-e011-986b-78e7d1fa76f8?type=phoneapp&id=1347bbfb-bca2-e011-986b-78e7d1fa76f8
           - icon: mobile
             url: http://appworld.blackberry.com/webstore/content/13011/?countrycode=US&lang=en
+          - icon: key
+            url: https://us.battle.net/support/en/article/battlenet-authenticator
 
     - name: GOG.com
       url: http://www.gog.com
@@ -22,7 +24,7 @@ websites:
       tfa: No
 
     - name: Guild Wars 2
-      img: guild_wars_2.png
+      img: guildwars2.png
       url: https://www.guildwars2.com
       tfa: Yes
       goog: Yes
@@ -33,7 +35,7 @@ websites:
 
     - name: EVE Online
       twitter: EveOnline
-      img: eve_online.png
+      img: eveonline.png
       url: http://www.eveonline.com/
       tfa: no
 
@@ -42,8 +44,14 @@ websites:
       url: http://www.swtor.com/
       tfa: Yes
       twitter: SWTOR
+      doc: http://www.swtor.com/info/security-key
       custom:
-          - icon: mail
+          - icon: android
+            url: https://play.google.com/store/apps/details?id=com.ea.SWTORSK_na
+          - icon: apple
+            url: https://itunes.apple.com/us/app/star-wars-the-old-republic/id488420452?mt=8
+          - icon: key
+            url: https://www.origin.com/en-us/store/sku/232460100-ANW.html
 
     - name: RuneScape
       img: runescape.png
@@ -65,7 +73,7 @@ websites:
 
     - name: League of Legends
       url: http://leagueoflegends.com
-      img: league_of_legends.png
+      img: leagueoflegends.png
       twitter: leagueoflegends
       tfa: No
 

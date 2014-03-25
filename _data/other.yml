@@ -51,18 +51,6 @@ websites:
         - icon: key
           url: https://helpdesk.lastpass.com/security-options/multifactor-authentication-options/transakt-authentication/
 
-    - name: Status.io
-      url: https://status.io/
-      img: statusio.png
-      tfa: Yes
-      sms: No
-      authy: No
-      goog: No
-      doc: http://blog.status.io/2014/03/01/yubikey/
-      custom:
-        - icon: key
-          url: "http://blog.status.io/2014/03/01/yubikey/"
-
     - name: Okta
       img: okta.png
       url: https://okta.com/
@@ -78,3 +66,9 @@ websites:
           url: "https://itunes.apple.com/us/app/okta-verify/id490179405?mt=8"
         - icon: android
           url: "https://play.google.com/store/apps/details?id=com.okta.android.auth"
+
+    - name: Wunderlist
+      img: wunderlist.png
+      tfa: No
+      url: https://www.wunderlist.com
+      twitter: Wunderlist

@@ -26,6 +26,21 @@ websites:
         - icon: key
           url: https://www.bankofamerica.com/privacy/faq/safepass-faq.go
 
+    - name: Barclays
+      url: http://http://www.barclays.co.uk/
+      img: barclays.png
+      tfa: Yes
+      doc: http://ask.barclays.co.uk/help/online_banking/whatis_pinsentry
+      custom:
+        - icon: key
+          url: http://ask.barclays.co.uk/help/online_banking/whatis_pinsentry
+
+    - name: Boeing Employee Credit Union
+      url: https://www.becu.com/
+      twitter: BECU
+      img: becu.png
+      tfa: No
+
     - name: Capital One
       url: https://www.capitalone.com/
       twitter: CapitalOne
@@ -36,6 +51,12 @@ websites:
       url: https://home.capitalone360.com/
       twitter: CapitalOne360
       img: capitalone360.png
+      tfa: No
+
+    - name: BMO Harris Bank
+      url: https://www.bmoharris.com/
+      twitter: BMOHarrisBank
+      img: bmoharris.png
       tfa: No
 
     - name: Charles Schwab
@@ -53,6 +74,7 @@ websites:
       img: chase.png
       tfa: Yes
       sms: Yes
+      doc: https://mobilebanking.chase.com/Public/Docs/Faq?nodeId=1&itemId=2
 
     - name: E*Trade
       img: etrade.png
@@ -205,3 +227,24 @@ websites:
       twitter: AskLloydsBank
       tfa: No
       img: lloydsbank.png
+
+    - name: CIBC
+      url: http://www.cibc.ca
+      twitter: cibc
+      tfa: No
+      img: cibc.png
+      
+    - name: RBC Royal Bank
+      url: http://www.rbcroyalbank.com
+      twitter: RBC_Canada
+      tfa: No
+      img: rbc.png
+      
+    - name: HSBC
+      url: https://www.hsbc.com
+      tfa: Yes
+      img: hsbc.png
+      doc: https://www.hsbc.co.uk/1/2/customer-support/online-banking-security/secure-key
+      custom:
+        - icon: key
+          url: https://www.hsbc.co.uk/1/2/customer-support/online-banking-security/secure-key
